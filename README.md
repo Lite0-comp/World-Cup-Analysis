@@ -13,7 +13,9 @@
 
 ## technology : 
 #### Spark 3.0.3
-
+#### Dataframes
+#### SQL
+#### Spark SQL Api
 
 ## Analysis
 
