@@ -30,3 +30,7 @@
 
 #### Most Teams facing each other
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (5)](https://user-images.githubusercontent.com/69567496/186513688-99eae8e5-8f0f-4257-ae80-2d113d7b75be.png)
+
+
+
+![winning](https://user-images.githubusercontent.com/69567496/186656697-a30e872e-fd47-4a8e-b02d-11f9f8fd3a4b.png)
