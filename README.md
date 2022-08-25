@@ -27,10 +27,5 @@
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (6)](https://user-images.githubusercontent.com/69567496/186547345-ba69f60d-10ec-4d88-884f-b4fa41fd464c.png)
 #### Most Teams with clean sheets
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (7)](https://user-images.githubusercontent.com/69567496/186547798-0a928286-9c4a-459a-9618-e9b445ae02d8.png)
-
 #### Most Teams facing each other
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (5)](https://user-images.githubusercontent.com/69567496/186513688-99eae8e5-8f0f-4257-ae80-2d113d7b75be.png)
-
-
-
-![winning](https://user-images.githubusercontent.com/69567496/186656697-a30e872e-fd47-4a8e-b02d-11f9f8fd3a4b.png)
