@@ -15,10 +15,11 @@
 #### This project main scope is to analyse the performance of the teams in World Cup through history throughout the wins of each teams and the goals scored and conceded in each match.
 #### Spark Apache is used to create this project which is setted to run on the local device otherwise the project could run on other nodes (Cluster).
 
-### Dataset 
+### Dataset Structure
 ---
-#### Dataset is from Kaggle Open-Source: https://www.kaggle.com/datasets/abecklas/fifa-world-cup
-#### 
+#### -[World Cup Matches](https://www.kaggle.com/datasets/abecklas/fifa-world-cup) Dataset is from Kaggle Open-Source.
+#### -Dataset constructed in the following schema:
+
 
 
 ### Technologies
