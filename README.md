@@ -1,24 +1,36 @@
 ![⚽World_Cup_Dataset_⚽ (2)](https://user-images.githubusercontent.com/69567496/185922257-d6621c85-2cda-4188-a93d-0d0236a75224.png)
 
-## Introduction
+### Table of Contents 
+---
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Technologies](#technologies)
+- [Reading Dataset](#reading-dataset)
+- [Analysis](#analysis)
+
+
+### Introduction
+---
 ### This project main scope is to analyse the performance of the teams in World Cup through history throughout the wins of each teams and the goals scored and conceded in each match.
 
-
-
-
-## Dataset 
-
+### Dataset 
+---
 #### Link : https://www.kaggle.com/datasets/abecklas/fifa-world-cup
 
 
-## technology : 
+### Technologies
+---
 #### Spark 3.0.3
 #### Dataframes
 #### SQL
 #### Spark SQL Api
 
-## Analysis
+### Reading Dataset
+---
 
+### Analysis
+---
 #### Most Winning Teams
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (3)](https://user-images.githubusercontent.com/69567496/186506430-d9e65aa8-0721-4c01-abdd-3804c772d97d.png)
 #### Most Losing Teams
