@@ -19,27 +19,50 @@
 ---
 #### -[World Cup Matches](https://www.kaggle.com/datasets/abecklas/fifa-world-cup) Dataset is from Kaggle Open-Source.
 #### -Dataset constructed in the following schema:
- |-- Year: string (nullable = true)
- |-- Datetime: string (nullable = true)
- |-- Stage: string (nullable = true)
- |-- Stadium: string (nullable = true)
- |-- City: string (nullable = true)
- |-- Home_Team_Name: string (nullable = true)
- |-- Home_Team_Goals: long (nullable = true)
- |-- Away_Team_Goals: long (nullable = true)
- |-- Away_Team_Name: string (nullable = true)
- |-- Win conditions: string (nullable = true)
- |-- Attendance: string (nullable = true)
- |-- Half-time Home Goals: string (nullable = true)
- |-- Half-time Away Goals: string (nullable = true)
- |-- Referee: string (nullable = true)
- |-- Assistant 1: string (nullable = true)
- |-- Assistant 2: string (nullable = true)
- |-- RoundID: string (nullable = true)
- |-- MatchID: string (nullable = true)
- |-- Home Team Initials: string (nullable = true)
- |-- Away Team Initials: string (nullable = true)
+- Year: string (nullable = true)
+- Datetime: string (nullable = true)
+- Stage: string (nullable = true)
+- Stadium: string (nullable = true)
+- City: string (nullable = true)
+- Home_Team_Name: string (nullable = true)
+- Home_Team_Goals: long (nullable = true)
+- Away_Team_Goals: long (nullable = true)
+- Away_Team_Name: string (nullable = true)
+- Win conditions: string (nullable = true)
+- Attendance: string (nullable = true)
+- Half-time Home Goals: string (nullable = true)
+- Half-time Away Goals: string (nullable = true)
+- Referee: string (nullable = true)
+- Assistant 1: string (nullable = true)
+- Assistant 2: string (nullable = true)
+- RoundID: string (nullable = true)
+- MatchID: string (nullable = true)
+- Home Team Initials: string (nullable = true)
+- Away Team Initials: string (nullable = true)
 
+   | Column name |                Description                |
+   |:-----------:|:-----------------------------------------:|
+   |     Year    | year of the world cup                     |
+   |   Datetime  | date and time of the match                   |
+   |    Stage   | which stage of the competition (Group,Round of 16,Quarter...) |
+   |     Stadium    | Name of the player                        |
+   |    Home_Team_Name    | Level of the player                       |
+   |    Home_Team_Goals    | Character who player chooses              |
+   |      Away_Team_Goals     | Id distinct for every player character    |
+   |  Away_Team_Name | Points, player takes when end challenge   |
+   |   Win conditions   | Account name distinct for every player    |
+   |  Attendance | Number of challenges which player entered |
+   |    Half-time Home Goals   | It shows who stream video games           |
+   |    Half-time Away Goals   | Description below                         |
+   |    Referee   | Description below                         |
+   |    Assistant 1   | Description below                         |
+   |    Assistant 2   | Description below                         |
+   |    RoundID   | Description below                         |
+   |    MatchID   | Description below                         |
+   |    Home Team Initials   | Description below                         |
+   |    Away Team Initials   | Description below                         |
+   
+   
 ### Technologies
 ---
 #### Spark 3.0.3
