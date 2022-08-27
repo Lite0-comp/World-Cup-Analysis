@@ -19,56 +19,38 @@
 ---
 #### -[World Cup Matches](https://www.kaggle.com/datasets/abecklas/fifa-world-cup) Dataset is from Kaggle Open-Source.
 #### -Dataset constructed in the following schema:
-- Year: string (nullable = true)
-- Datetime: string (nullable = true)
-- Stage: string (nullable = true)
-- Stadium: string (nullable = true)
-- City: string (nullable = true)
-- Home_Team_Name: string (nullable = true)
-- Home_Team_Goals: long (nullable = true)
-- Away_Team_Goals: long (nullable = true)
-- Away_Team_Name: string (nullable = true)
-- Win conditions: string (nullable = true)
-- Attendance: string (nullable = true)
-- Half-time Home Goals: string (nullable = true)
-- Half-time Away Goals: string (nullable = true)
-- Referee: string (nullable = true)
-- Assistant 1: string (nullable = true)
-- Assistant 2: string (nullable = true)
-- RoundID: string (nullable = true)
-- MatchID: string (nullable = true)
-- Home Team Initials: string (nullable = true)
-- Away Team Initials: string (nullable = true)
 
-   | Column name |                Description                |
-   |:-----------:|:-----------------------------------------:|
-   |     Year    | year of the world cup                     |
-   |   Datetime  | date and time of the match                   |
-   |    Stage   | which stage of the competition (Group,Round of 16,Quarter...) |
-   |     Stadium    | Name of the player                        |
-   |    Home_Team_Name    | Level of the player                       |
-   |    Home_Team_Goals    | Character who player chooses              |
-   |      Away_Team_Goals     | Id distinct for every player character    |
-   |  Away_Team_Name | Points, player takes when end challenge   |
-   |   Win conditions   | Account name distinct for every player    |
-   |  Attendance | Number of challenges which player entered |
-   |    Half-time Home Goals   | It shows who stream video games           |
-   |    Half-time Away Goals   | Description below                         |
-   |    Referee   | Description below                         |
-   |    Assistant 1   | Description below                         |
-   |    Assistant 2   | Description below                         |
-   |    RoundID   | Description below                         |
-   |    MatchID   | Description below                         |
-   |    Home Team Initials   | Description below                         |
-   |    Away Team Initials   | Description below                         |
+   | Column name             |                Description                                         |
+   |:-----------------------:|:------------------------------------------------------------------:|
+   |  Year                   | year of the world cup                                              |
+   |  Datetime               | date and time of the match                                         |
+   |  Stage                  | which stage of the competition (Group,Round of 16,Quarter...)      |
+   |  Stadium                | place where the match played                                       |
+   |  Home_Team_Name         | team that the match played on his stadium                          |
+   |  Home_Team_Goals        | goals scored by Home team                                          |
+   |  Away_Team_Goals        | goals scored by Away team                                          |                                       
+   |  Away_Team_Name         | team that the match was not played on his stadium                  |
+   |  Win conditions         | the time the match ended in (Default 90 mins, extratime,penalities |
+   |  Attendance             | how many people attended the match at the stadium                  |
+   |  Half-time Home Goals   | goals scored by the home team in the first leg                     |
+   |  Half-time Away Goals   | goals scored by the away team in the first leg                     |
+   |  Referee                | name of the referee who managed the match                          |
+   |  Assistant 1            | name of the main assistant of the referee                          |
+   |  Assistant 2            | name of the secondary assistant of the referee                     |
+   |  RoundID                | Id of the round that the match was played in                       |
+   |  MatchID                | Id of the match                                                    |
+   |  Home Team Initials     | the appreviation of the home team                                  |
+   |  Away Team Initials     | the appreviation of the away team                                  |
    
    
 ### Technologies
 ---
-#### Spark 3.0.3
-#### Dataframes
+#### Scala 2.11.12
+#### sbt 1.3.13
+#### JDK 1.8.0
 #### SQL
 #### Spark SQL Api
+#### sbt 1.3.13
 
 ### Reading Dataset
 ---
