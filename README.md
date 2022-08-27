@@ -4,7 +4,7 @@
 ---
 
 - [Introduction](#introduction)
-- [Dataset](#dataset)
+- [Dataset](#dataset-structure)
 - [Technologies](#technologies)
 - [Reading Dataset](#reading-dataset)
 - [Analysis](#analysis)
@@ -19,8 +19,26 @@
 ---
 #### -[World Cup Matches](https://www.kaggle.com/datasets/abecklas/fifa-world-cup) Dataset is from Kaggle Open-Source.
 #### -Dataset constructed in the following schema:
-
-
+ |-- Year: string (nullable = true)
+ |-- Datetime: string (nullable = true)
+ |-- Stage: string (nullable = true)
+ |-- Stadium: string (nullable = true)
+ |-- City: string (nullable = true)
+ |-- Home_Team_Name: string (nullable = true)
+ |-- Home_Team_Goals: long (nullable = true)
+ |-- Away_Team_Goals: long (nullable = true)
+ |-- Away_Team_Name: string (nullable = true)
+ |-- Win conditions: string (nullable = true)
+ |-- Attendance: string (nullable = true)
+ |-- Half-time Home Goals: string (nullable = true)
+ |-- Half-time Away Goals: string (nullable = true)
+ |-- Referee: string (nullable = true)
+ |-- Assistant 1: string (nullable = true)
+ |-- Assistant 2: string (nullable = true)
+ |-- RoundID: string (nullable = true)
+ |-- MatchID: string (nullable = true)
+ |-- Home Team Initials: string (nullable = true)
+ |-- Away Team Initials: string (nullable = true)
 
 ### Technologies
 ---
