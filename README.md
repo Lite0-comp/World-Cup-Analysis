@@ -143,3 +143,17 @@ val dueling = df.groupBy("Home_Team_Name","Away_Team_Name")
                 .orderBy(col("Versus").desc)
 ```
 ![186499868-bce78c02-fa4e-43b1-ac96-5c6dc5f8d747 (5)](https://user-images.githubusercontent.com/69567496/186513688-99eae8e5-8f0f-4257-ae80-2d113d7b75be.png)
+
+#### Most Winning team
+- SparkSql
+```
+val HomeAwayWins = spark.sql("(SELECT Home_Team_Name as Team_Name,COUNT(*) as Wins FROM matches WHERE Home_Team_Goals - Away_Team_Goals > 0 GROUP BY Home_Team_Name)UNION( SELECT Away_Team_Name as Team_Name,COUNT(*) as Wins FROM matches WHERE Home_Team_Goals - Away_Team_Goals < 0 GROUP BY Away_Team_Name)")
+
+HomeAwayWins.createOrReplaceTempView("winners")
+
+val TotalWins= spark.sql("SELECT Team_Name,SUM(Wins) as Total_Wins FROM winners GROUP BY Team_Name HAVING Total_Wins = (SELECT MAX(Total_wins) FROM(SELECT Team_Name,SUM(Wins) as Total_Wins FROM winners GROUP BY Team_Name))")
+
+```
+ | Team_Name  | Total_Wins |
+ |:----------:|:----------:|
+ |  Brazil    | 70         |
